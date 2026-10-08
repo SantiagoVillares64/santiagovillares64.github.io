@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Santiago Villares</title>
+<meta name="description" content="Portfolio de Santiago Villares: datos, producto, marca y proyectos con IA.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+<!--CUERPO-->
+<header class="bar" id="bar">
+  <div class="wrap">
+    <a class="brand" href="#inicio" id="brand"></a>
+    <nav>
+      <a href="#proyectos" data-ui="nav.proyectos"></a>
+      <a href="#experiencia" data-ui="nav.experiencia"></a>
+      <a href="#redes" data-ui="nav.redes"></a>
+      <a href="#contacto" data-ui="nav.contacto"></a>
+      <div class="lang" role="group" aria-label="Idioma / Language">
+        <button id="lang-es" data-lang="es" aria-pressed="true">ES</button>
+        <button id="lang-en" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap" id="inicio">
+  <section class="hero">
+    <div class="foto" id="foto"></div>
+    <div>
+      <div class="estado" id="estado"></div>
+      <h1 id="titular"></h1>
+      <p id="bajada"></p>
+      <div class="pills" id="ejes"></div>
+      <div class="btns">
+        <a class="btn solid" href="#proyectos" data-ui="verProyectos"></a>
+        <a class="btn ghost" id="cv" target="_blank" rel="noopener" data-ui="descargarCV"></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sobre">
+    <figure class="foto-sobre" id="fotoSobre"></figure>
+    <div class="texto">
+      <div class="eyebrow" data-ui="sobreMi"></div>
+      <h2 id="nombre"></h2>
+      <div id="sobreMi"></div>
+      <div class="datos" id="datos"></div>
+    </div>
+  </section>
+
+  <section class="bloque" id="proyectos">
+    <div class="cabecera">
+      <div>
+        <div class="eyebrow" data-ui="nav.proyectos"></div>
+        <h2 data-ui="proyectosTitulo"></h2>
+        <p data-ui="proyectosBajada"></p>
+      </div>
+      <div class="filtros" id="filtros" role="group"></div>
+    </div>
+    <div class="grilla" id="grilla"></div>
+    <div class="mas">
+      <h3 data-ui="masProyectos"></h3>
+      <ul id="mas"></ul>
+    </div>
+  </section>
+
+  <section class="bloque" id="experiencia">
+    <div class="cabecera"><div>
+      <div class="eyebrow" data-ui="nav.experiencia"></div>
+      <h2 data-ui="experienciaTitulo"></h2>
+    </div></div>
+    <ol class="linea" id="linea"></ol>
+  </section>
+
+  <section class="bloque" id="redes">
+    <div class="cabecera"><div>
+      <div class="eyebrow" data-ui="nav.redes"></div>
+      <h2 data-ui="redesTitulo"></h2>
+      <p data-ui="redesBajada"></p>
+    </div></div>
+    <div class="redes" id="listaRedes"></div>
+  </section>
+
+  <section class="bloque" id="skills">
+    <div class="cabecera"><div>
+      <h2 data-ui="skillsTitulo"></h2>
+    </div></div>
+    <div class="skills" id="listaSkills"></div>
+    <div class="certs" id="certs"></div>
+    <p class="idiomas" id="idiomas"></p>
+  </section>
+
+  <section class="contacto" id="contacto">
+    <div>
+      <h2 data-ui="contactoTitulo"></h2>
+      <p data-ui="contactoBajada"></p>
+    </div>
+    <div class="acciones">
+      <span class="mail" id="mail"></span>
+      <div class="fila">
+        <button class="btn solid" id="copiar" type="button" data-ui="copiar"></button>
+        <a class="btn ghost" id="linkedin" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+  <footer id="pie"></footer>
+</main>
+
+<dialog class="caso" id="caso" aria-labelledby="caso-titulo"></dialog>
+
+<script src="js/contenido.js"></script>
+<script src="js/app.js"></script>
+<!--/CUERPO-->
+</body>
+</html>
