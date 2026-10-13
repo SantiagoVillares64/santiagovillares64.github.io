@@ -108,6 +108,60 @@ window.PROYECTOS = [
     links: [{ texto: "@fincaelrosario.ar", url: "https://www.instagram.com/fincaelrosario.ar/" }]
   },
   {
+    id: "web-sagrada",
+    cats: ["producto", "datos"],
+    fecha: "2026",
+    tipo: { es: "Proyecto propio · voluntariado", en: "Own project · volunteering" },
+    titulo: { es: "Web Jóvenes Sagrada Familia", en: "Sagrada Familia Youth website" },
+    resumen: {
+      es: "Diseñé, programé y publiqué solo la web de los grupos de jóvenes de mi parroquia: 15 páginas, calendario automático, juegos diarios con ranking y una academia con certificados.",
+      en: "I designed, coded and launched on my own the website for my parish youth groups: 15 pages, an automatic calendar, daily games with a leaderboard and an academy with certificates."
+    },
+    portada: { img: "img/web-sagrada-inicio.jpg", pos: "left top" },
+    rol: { es: "Desarrollo 100% propio: diseño, código, contenido y publicación", en: "Built entirely by me: design, code, content and launch" },
+    contexto: {
+      es: "La información de los grupos de jóvenes (horarios, inscripciones, retiros, misiones) estaba repartida entre chats y posteos de Instagram. Hacía falta un lugar único, fácil de mantener por voluntarios y que además diera motivos para volver.",
+      en: "Information about the youth groups (schedules, sign-ups, retreats, missions) was scattered across chats and Instagram posts. They needed a single place that volunteers could keep up to date, and a reason for people to come back."
+    },
+    hice: {
+      es: [
+        "Diseñé y programé un sitio de 15 páginas en HTML, CSS y JavaScript, sin plantillas ni frameworks: una página por grupo, horarios, recursos, cómo sumarse y política de privacidad.",
+        "Armé un calendario que se actualiza solo desde una planilla de Google, y que calcula el tiempo litúrgico, la Pascua y las fiestas de los santos.",
+        "Creé 4 desafíos diarios (santo, versículo, crucigrama y Conexiones), iguales para todos, con rachas y un ranking parroquial semanal.",
+        "Generé el contenido de los juegos con scripts de Python: 100 crucigramas, 150 partidas de Conexiones y versículos verificados textualmente contra la Biblia.",
+        "Hice un diccionario con los 67 santos del juego, con buscador y filtros.",
+        "Desarrollé la Academia Frassati, con identidad propia: cursos con examen, certificado imprimible y cuadernillos en PDF generados automáticamente.",
+        "Implementé el inicio de sesión con Google y un backend en Google Apps Script que guarda puntajes, usuarios e insignias en planillas.",
+        "La publiqué en GitHub Pages, bajo una organización propia, con sitemap y página de error."
+      ],
+      en: [
+        "Designed and coded a 15-page site in HTML, CSS and JavaScript, with no templates or frameworks: one page per group, schedules, resources, how to join and a privacy policy.",
+        "Built a calendar that updates itself from a Google Sheet and computes the liturgical season, Easter and saints' feast days.",
+        "Created 4 daily challenges (saint, Bible verse, crossword and Connections), the same for everyone, with streaks and a weekly parish leaderboard.",
+        "Generated the game content with Python scripts: 100 crosswords, 150 Connections puzzles and Bible verses checked word for word against the source.",
+        "Made a searchable, filterable dictionary of the 67 saints in the game.",
+        "Developed the Frassati Academy, with its own visual identity: courses with exams, printable certificates and auto-generated PDF booklets.",
+        "Implemented Sign in with Google and a Google Apps Script backend that stores scores, users and badges in spreadsheets.",
+        "Launched it on GitHub Pages under its own organization, with a sitemap and error page."
+      ]
+    },
+    resultado: {
+      es: "Una web online desde octubre de 2026, que los voluntarios mantienen desde una planilla sin tocar código y que suma juegos y formación para que los chicos vuelvan.",
+      en: "A website live since October 2026 that volunteers update from a spreadsheet without touching code, with games and courses that give young people a reason to come back."
+    },
+    herramientas: ["HTML / CSS / JS", "Python", "Google Apps Script", "Google Sheets", "Google Sign-In", "GitHub Pages", { es: "Herramientas de código con IA", en: "AI coding tools" }],
+    galeria: [
+      { img: "img/web-sagrada-juegos.jpg", alt: { es: "Los desafíos diarios", en: "The daily challenges" } },
+      { img: "img/web-sagrada-calendario.jpg", alt: { es: "El calendario, con el tiempo litúrgico calculado", en: "The calendar, with the computed liturgical season" } },
+      { img: "img/web-sagrada-academia.jpg", alt: { es: "La Academia Frassati", en: "The Frassati Academy" } },
+      { img: "img/web-sagrada-santos.jpg", alt: { es: "El diccionario de santos", en: "The saints dictionary" } }
+    ],
+    links: [
+      { texto: { es: "Ver la web", en: "Visit the site" }, url: "https://sagradafamiliajoven.github.io/" },
+      { texto: { es: "Código en GitHub", en: "Code on GitHub" }, url: "https://github.com/sagradafamiliajoven/sagradafamiliajoven.github.io" }
+    ]
+  },
+  {
     id: "sueldate",
     cats: ["negocio", "producto"],
     fecha: "2026",
@@ -236,37 +290,37 @@ window.PROYECTOS = [
   },
   {
     id: "sagrada",
-    cats: ["marca", "producto"],
+    cats: ["marca"],
     fecha: { es: "Actualidad", en: "Current" },
     tipo: { es: "Voluntariado", en: "Volunteering" },
-    titulo: { es: "Jóvenes Sagrada Familia", en: "Sagrada Familia Youth" },
+    titulo: { es: "Instagram Jóvenes Sagrada Familia", en: "Sagrada Familia Youth on Instagram" },
     resumen: {
-      es: "Manejo el Instagram de los grupos de jóvenes de la parroquia y estoy armando su sitio web.",
-      en: "I run the Instagram for my parish youth groups and I'm building their website."
+      es: "Manejo el Instagram de los grupos de jóvenes de mi parroquia: 1.908 seguidores y 74,7 mil visualizaciones en 30 días.",
+      en: "I run my parish youth groups' Instagram: 1,908 followers and 74.7K views in 30 days."
     },
     portada: { img: "img/sagrada-iglesia.jpg", pos: "center 40%" },
-    rol: { es: "Community Manager y desarrollador web", en: "Community Manager and web developer" },
+    rol: { es: "Community Manager", en: "Community Manager" },
     contexto: {
-      es: "La parroquia Sagrada Familia tiene varios grupos de jóvenes, desde 5to año hasta la facultad. Las fechas y la información de cada grupo estaban dispersas.",
-      en: "Sagrada Familia parish has several youth groups, from high school to college. Dates and information for each group were scattered."
+      es: "La parroquia Sagrada Familia tiene varios grupos de jóvenes, desde 3er año hasta la facultad, y la cuenta es su canal principal para comunicar encuentros, misiones y actividades.",
+      en: "Sagrada Familia parish has several youth groups, from high school to college, and the account is their main channel for gatherings, missions and activities."
     },
     hice: {
       es: [
-        "Gestiono la cuenta @sagradafamilia.joven: diseño de piezas, edición de reels y planificación de contenido. Hoy tiene 1.908 seguidores.",
+        "Gestiono la cuenta @sagradafamilia.joven: diseño de piezas, edición de reels y planificación de contenido.",
         "Uso mi automatización de clips con IA para sacar fragmentos de charlas y homilías.",
-        "Estoy desarrollando la web de los grupos: una página por grupo y un calendario que se actualiza solo desde una planilla de Google."
+        "La cuenta lleva a la web de los grupos, que también hice yo (ver el caso de la web)."
       ],
       en: [
-        "I run the @sagradafamilia.joven account: graphics, reel editing and content planning. It now has 1,908 followers.",
+        "I run the @sagradafamilia.joven account: graphics, reel editing and content planning.",
         "I use my AI clip automation to pull highlights from talks and homilies.",
-        "I'm building the groups' website: one page per group and a calendar that updates itself from a Google Sheet."
+        "The account points to the groups' website, which I also built (see the website case)."
       ]
     },
     resultado: {
-      es: "74,7 mil visualizaciones en los últimos 30 días (octubre 2026), y una web en desarrollo que va a centralizar toda la información.",
-      en: "74.7K views in the last 30 days (October 2026), and a website in progress that will bring all the information together."
+      es: "1.908 seguidores y 74,7 mil visualizaciones en los últimos 30 días (octubre 2026).",
+      en: "1,908 followers and 74.7K views in the last 30 days (October 2026)."
     },
-    herramientas: ["Instagram", "Canva", "Illustrator", "HTML / CSS / JS", "Google Sheets"],
+    herramientas: ["Instagram", "Canva", "Illustrator", { es: "Edición de video", en: "Video editing" }],
     galeria: [
       { img: "img/perfil-sagradafamilia-joven.jpg", alt: { es: "El perfil de la cuenta, con sus estadísticas", en: "The account profile and its stats" } },
       { img: "img/sagrada-capilla.jpg", alt: { es: "La capilla de la parroquia", en: "The parish chapel" } }
