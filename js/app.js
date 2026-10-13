@@ -64,6 +64,7 @@
 
     $("mail").textContent = P.email;
     $("linkedin").href = P.linkedin;
+    $("youtube").href = P.youtube;
     $("pie").textContent = `© ${new Date().getFullYear()} ${P.nombre} · Buenos Aires, Argentina`;
     document.title = P.nombre + (lang === "es" ? " · Portfolio" : " · Portfolio");
 

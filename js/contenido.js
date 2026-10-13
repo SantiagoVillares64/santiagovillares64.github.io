@@ -28,6 +28,7 @@ window.PERFIL = {
   cv: { es: "docs/CV_Santiago_Villares_ES.pdf", en: "docs/CV_Santiago_Villares_EN.pdf" },
   email: "santiagovillares64@gmail.com",
   linkedin: "https://www.linkedin.com/in/santiago-villares/",
+  youtube: "https://www.youtube.com/@santiagovillares6994",
   sobreMi: {
     es: [
       "Lo que más me define es meterme de lleno en algo que no conozco. Así aprendí el mundo del vino para poder contar la historia de Famiglia del Favero, me certifiqué como instructor de ski para trabajar una temporada en Vermont y me metí en machine learning durante la facultad.",
@@ -663,6 +664,7 @@ window.UI = {
   verCertificado: { es: "Ver certificado", en: "View certificate" },
   contactoTitulo: { es: "¿Hablamos?", en: "Let's talk" },
   contactoBajada: { es: "Estoy buscando mi próximo trabajo full-time. Escribime y te respondo.", en: "I'm looking for my next full-time role. Drop me a line." },
+  youtubeNota: { es: "En YouTube están los vlogs de mi viaje por Europa.", en: "My YouTube channel has vlogs from my trip around Europe." },
   copiar: { es: "Copiar mail", en: "Copy email" },
   copiado: { es: "Copiado", en: "Copied" }
 };
